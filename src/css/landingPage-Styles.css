@@ -5,6 +5,32 @@
     ---color-white: #F4F4F4;
 }
 
+::selection{
+    background-color: var(--color-primary);
+    color: var(---color-white);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--color-black); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-secondary); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-primary); 
+  }
+
+
 body{
     background: linear-gradient(90deg, #FFE7D1 0%, #FFF2E6 100%);
     padding: 0 1rem;
