@@ -76,7 +76,6 @@ header nav a{
     transition: 0.5s ease-in-out;
 }
 
-
 /* 2n - 1 siginifica que 2n são todos os elementos pares e com -1 ele seleciona todos os impares */
 header nav a:nth-child(2n-1){ 
     text-align: right;
